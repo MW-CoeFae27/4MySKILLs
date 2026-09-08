@@ -1,0 +1,27 @@
+{
+  "name": "dev-skills-pack",
+  "version": "1.0.0",
+  "description": "Portable, cost-free Copilot Agent skills for repository analysis.",
+  "type": "module",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MW-CoeFae27/4MySKILLs.git"
+  },
+  "bin": {
+    "dev-skills-pack": "./bin/init.js"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

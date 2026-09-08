@@ -27,5 +27,5 @@ test('package contains the required project structure', async () => {
   assert.equal(packageJson.version, '1.0.0');
   assert.equal(packageJson.license, 'MIT');
   assert.equal(packageJson.type, 'module');
-  assert.equal(packageJson.bin['dev-skills-pack'], './bin/init.js');
+  assert.equal(packageJson.bin['dev-skills-pack'], 'bin/init.js');
 });

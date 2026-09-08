@@ -6,10 +6,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MW-CoeFae27/4MySKILLs.git"
+    "url": "git+https://github.com/MW-CoeFae27/4MySKILLs.git"
   },
   "bin": {
-    "dev-skills-pack": "./bin/init.js"
+    "dev-skills-pack": "bin/init.js"
   },
   "files": [
     "bin/",

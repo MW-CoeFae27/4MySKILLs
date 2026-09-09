@@ -1,6 +1,6 @@
 {
   "name": "dev-skills-pack",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Portable, cost-free Copilot Agent skills for repository analysis.",
   "type": "module",
   "license": "MIT",

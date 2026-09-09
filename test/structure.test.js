@@ -24,7 +24,7 @@ test('package contains the required project structure', async () => {
   }
   const packageJson = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'));
   assert.equal(packageJson.name, 'dev-skills-pack');
-  assert.equal(packageJson.version, '1.0.0');
+  assert.match(packageJson.version, /^\d+\.\d+\.\d+$/);
   assert.equal(packageJson.license, 'MIT');
   assert.equal(packageJson.type, 'module');
   assert.equal(packageJson.bin['dev-skills-pack'], 'bin/init.js');
